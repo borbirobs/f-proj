@@ -9,7 +9,7 @@ driver.find_element_by_name("name").send_keys(name)
 driver.find_element_by_name("coords").send_keys("10,10")
 button = driver.find_element_by_xpath("//html/body/div/form/button")
 button.click()
-driver.find_element_by_xpath("//tr[td[text() ='${name}']]//a").click()
+driver.find_element_by_xpath("//tr[td[text() = " + '${name}'+ "]]//a").click()
 
 time.sleep(4)
 
