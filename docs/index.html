@@ -8,16 +8,22 @@
 <body>
     <div style="background-color:black;color:green;padding:20px;">
     <h1>Számológép</h1>
-    <p>Ez egy számológép</p>
+    <p>Ez egy számológép. csak nem működik</p>
 
     <form>
-
-        <input name="a"/>
+        <div>
+        <input name="a" id="a-input"/>
         +
-        <input name="b"/>
-        <input type="submit" value="számolj!"/>
+        <input name="b" id="b-input"/>
+        <input type="submit" value="számolj!" id="submit-button"/>
 
+        </div>
+        <div>
+            Eredmény:
+        <input name="result" readonly="true" id="result-input"/>
+        </div>
     </form>
+
 </div>
 </body>
 </html>
