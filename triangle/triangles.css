@@ -1,0 +1,7 @@
+.inputfield {
+    border: 1px solid red;
+}
+.inputfield:focus {
+
+    border: 10px solid green;
+}

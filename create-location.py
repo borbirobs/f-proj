@@ -1,5 +1,5 @@
-from test.selenium import webdriver
-from test.selenium import Keys
+from test.ttt import webdriver
+from test.ttt import Keys
 
 
 driver = webdriver.Chrome()

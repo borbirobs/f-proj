@@ -1,5 +1,5 @@
 import time
-from test.selenium import webdriver
+from test.ttt import webdriver
 
 driver = webdriver.Chrome('/usr/local/bin/chromedriver')  # Optional argument, if not specified will search path.
 driver.get('http://www.learnwebservices.com/locations/server');
